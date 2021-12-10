@@ -1,17 +1,11 @@
 version: '3'
 
 services:
- backend:
-  build: ./backend
+ robo-friends:
+  build: .
+  command: npm start
   ports:
-   - 8080:8080
-  container_name: backend
-
- frontend:
-  build: ./frontend
-  ports:
-   - 5000:5000
-  container_name: frontend
+   - 3000:3000
 
  watchtower:
   image: containrrr/watchtower
