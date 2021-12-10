@@ -27,3 +27,11 @@ jobs:
       with:
         push: true
         tags: plustig/devops_with_docker_ex_3.1:latest
+    
+    - name: Deplyo on Heroku
+    - uses: actions/checkout@v2
+    - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+      with:
+        heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+        heroku_app_name: "DevopsWithDockerEx31" #Must be unique in Heroku
+        heroku_email: ${{secrets.HEROKU_EMAIL}}
