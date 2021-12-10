@@ -1,4 +1,4 @@
-Getting my feet wet with React and Redux, with this simple application for finding your robo firends!.
+Devops with Docker Ex 3.1.
 
 How to install:
 
@@ -6,6 +6,5 @@ How to install:
 2. npm install
 3. npm start
 
-<strong>OR</strong>
-
-Just visit this github page -> <a href="https://iljasl.github.io/roboFriends/">Click me</a>
+Heroku <a href="https://hub.docker.com/repository/docker/plustig/devops_with_docker_ex_3.1">Click me</a>
+Dockerhub <a href="https://devopswithdockerex31.herokuapp.com">Click me</a>
